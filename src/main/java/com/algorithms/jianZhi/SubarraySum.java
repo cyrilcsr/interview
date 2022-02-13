@@ -2,6 +2,10 @@ package com.algorithms.jianZhi;
 
 import java.util.HashMap;
 
+/*
+JianZhi Offer 2-010
+Leeetcode 0560
+ */
 public class SubarraySum {
     public int subarraySum(int[] nums, int k) {
         int result = 0;
