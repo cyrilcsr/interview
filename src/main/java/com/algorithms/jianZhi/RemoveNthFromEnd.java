@@ -4,6 +4,10 @@ package com.algorithms.jianZhi;
 import java.util.Deque;
 import java.util.LinkedList;
 
+/*
+JianZhi Offer 2-021
+Leeetcode 0019
+ */
 class ListNode {
     int val;
     ListNode next;
