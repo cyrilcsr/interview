@@ -2,7 +2,7 @@ package com.algorithms.leetcode;
 
 /*
 Leeetcode 2100
- */
+*/
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
