@@ -21,6 +21,7 @@ public class ConvertToBase7 {
         if(negative){
             sb.append("-");
         }
+        Integer.toString(num,7);
 
         return sb.reverse().toString();
     }
