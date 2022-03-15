@@ -28,15 +28,16 @@ public class Task3 {
     }
 
     private void dfs(int node, int parent,int length,String S){
-        if(children[node].size()==0){
-            maxLen = Math.max(maxLen,length);
-            return;
-        }
+//        if(children[node].size()==0){
+//            maxLen = Math.max(maxLen,length);
+//            return;
+//        }
         if(parent!=-1&&S.charAt(parent)!=S.charAt(node)){
             length++;
         }else{
-            return length;
+            length=1;
         }
+        maxLen = Math.max(maxLen,length);
         for(int child:children[node]){
             dfs(child,node,length,S);
         }
